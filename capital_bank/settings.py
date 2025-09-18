@@ -111,7 +111,7 @@ WSGI_APPLICATION = 'capital_bank.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://capitalbank_db_n6c3_user:RhcV1eB8T1M0NHl4bBtKEwhfAAR2ugNO@dpg-d363nb3uibrs73do73cg-a.oregon-postgres.render.com/capitalbank_db_n6c3',
     )
 }
 
