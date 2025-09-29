@@ -39,22 +39,21 @@ This feature ensures transparency and user trust.
 
 Follow these steps to set up the project locally:
 
-
-# 1️⃣ Clone the repository
+#  Clone the repository
 git clone https://github.com/almasforhadi/CapitalBank.git
 
-# 2️⃣ Navigate to the project directory
+#  Navigate to the project directory
 cd CapitalBank
 
-# 3️⃣ Create and activate virtual environment
+#  Create and activate virtual environment
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 
-# 4️⃣ Install dependencies
+#  Install dependencies
 pip install -r requirements.txt
 
-# 5️⃣ Apply migrations
+#  Apply migrations
 python manage.py migrate
 
-# 6️⃣ Run the development server
+#  Run the development server
 python manage.py runserver
